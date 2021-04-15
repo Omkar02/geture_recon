@@ -45,10 +45,6 @@ def app():
         with open('messages/symbol_to_text.json', 'w') as json_file:
             json.dump(data, json_file)
 
-            # print(usr_customization())
-            # time.sleep(5)
-            # st.error("Wrong gesture symbol selected!")
-
     st.title("User Customization Menu")
     image = Image.open('Datasets/amer_sign2.png')
     st.image(image)
