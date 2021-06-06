@@ -8,3 +8,10 @@ This also give flexiblity to map the gesture to user defined words or sentences!
 
 ### Run Command 🏃‍:
     streamlit run main_app.py
+
+### Requirments 🧾:
+- tensorflow==2.4.1
+- opencv-python==4.1.2.30
+- numpy==1.19.5
+- streamlit==0.80.0
+- Pillow==8.2.0
