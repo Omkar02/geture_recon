@@ -33,7 +33,7 @@ def app():
     st.sidebar.title('Sign Language Detection')
 
     st.sidebar.markdown("### Symbols For Ref!")
-    image = cv2.imread('Datasets/amer_sign2.png')
+    image = cv2.imread('Images/amer_sign2.png')
 
     st.sidebar.image(image)
     st.sidebar.markdown("### ROI Hand!")
@@ -46,7 +46,7 @@ def app():
     seen_count = 0
     while run:
         ret, img = cap.read()
-        banner = cv2.imread('Datasets/banner.png')
+        banner = cv2.imread('Images/banner.png')
         img = cv2.flip(img, 1)
         top, right, bottom, left = 75, 350, 300, 590
         roi = img[top:bottom, right:left]
