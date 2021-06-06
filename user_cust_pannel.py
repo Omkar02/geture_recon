@@ -46,7 +46,7 @@ def app():
             json.dump(data, json_file)
 
     st.title("User Customization Menu")
-    image = Image.open('Datasets/amer_sign2.png')
+    image = Image.open('Images/amer_sign2.png')
     st.image(image)
 
     reset = st.button('Reset')
