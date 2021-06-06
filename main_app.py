@@ -23,8 +23,8 @@ class MultiApp:
 
 
 app = MultiApp()
-st.markdown("""# Gesture Reconization System.
-This is an Gesture Reconization which usese CNN 
+st.markdown("""# Gesture Recognition System.
+This is an Gesture Recognition which uses CNN 
 to classify hand gesture to text with user customization""")
 
 # Add all your application here
